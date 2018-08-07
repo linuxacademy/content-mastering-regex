@@ -1,0 +1,40 @@
+192.0.22 - - [10/Oct/2013:00:04:48 ] "GET /linux HTTP/1.0" 200 2881 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1944.0 Safari/537.36"
+
+192.0.2.12 - - [10/Oct/2013:00:06:47 ] "GET /aws HTTP/1.0" 200 2094 "http://www.linuxacademy.com" "Mozilla/5.0 (Linux; U; Android 2.3.5; en-us; HTC Vision Build/GRI40) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"
+
+203.0.113.532 - - [10/Oct/2013:00:08:44 ] "GET /devops HTTP/1.0" 200 4481 "http://linuxacademy.com/blog" "Mozilla/5.0 (Windows; U; Windows NT 6.1; rv:2.2) Gecko/20110201"
+
+198.51.100..118 - - [10/Oct/2013:00:11:24 ] "GET /community HTTP/1.0" 200 3833 "http://www.linuxacademy.com" "Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5355d Safari/8536.25"
+
+198.51.100.8 - - [10/Oct/2013:00:12:52 ] "GET /azure HTTP/1.0" 200 3931 "http://google.com" "Mozilla/5.0 (Windows; U; MSIE 9.0; WIndows NT 9.0; en-US))"
+
+192.0.22 - - [10/Oct/2013:00:14:04 ] "GET /devops HTTP/1.0" 200 2330 "-" "Mozilla/5.0 (Windows; U; Windows NT 6.1; rv:2.2) Gecko/20110201"
+
+198.51.100..118 - - [10/Oct/2013:00:16:42 ] "GET /community HTTP/1.0" 200 3958 "http://google.com" "Mozilla/5.0 (Windows NT 5.1; rv:31.0) Gecko/20100101 Firefox/31.0"
+
+198.51.100.23 - - [10/Oct/2013:00:20:13 ] "GET /azure HTTP/1.0" 200 2617 "http://google.com" "Mozilla/5.0 (Windows; U; MSIE 9.0; WIndows NT 9.0; en-US))"
+
+192.0.2.129 - - [10/Oct/2013:00:24:15 ] "GET /linux-academy HTTP/1.0" 200 4982 "http://www.linuxacademy.com" "Mozilla/5.0 (Windows; U; Windows NT 6.1; rv:2.2) Gecko/20110201"
+
+192.0.2.129 - - [10/Oct/2013:00:25:55 ] "GET /devops HTTP/1.0" 200 2226 "-" "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0)"
+
+198.51.100.23 - - [10/Oct/2013:00:26:44 ] "GET /aws HTTP/1.0" 200 4202 "-" "Mozilla/5.0 (Windows; U; MSIE 9.0; WIndows NT 9.0; en-US))"
+
+203.0.113.23 - - [10/Oct/2013:00:31:40 ] "GET /linux-academy HTTP/1.0" 200 3241 "http://linuxacademy.com/blog" "Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5355d Safari/8536.25"
+
+198.51.100.224 - - [10/Oct/2013:00:34:27 ] "GET /notifications HTTP/1.0" 200 4452 "http://www.linuxacademy.com" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1944.0 Safari/537.36"
+
+198.51.100.8 - - [10/Oct/2013:00:37:12 ] "GET /linux-academy HTTP/1.0" 200 2075 "http://www.linuxacademy.com" "Mozilla/5.0 (Windows NT 5.1; rv:31.0) Gecko/20100101 Firefox/31.0"
+
+192.0.2.12 - - [10/Oct/2013:00:40:31 ] "GET /linux HTTP/1.0" 200 2959 "http://linuxacademy.com/blog" "Mozilla/5.0 (Windows; U; Windows NT 6.1; rv:2.2) Gecko/20110201"
+
+192.0.22 - - [10/Oct/2013:00:42:19 ] "GET /notifications HTTP/1.0" 200 4067 "http://google.com" "Mozilla/5.0 (Windows; U; MSIE 9.0; WIndows NT 9.0; en-US))"
+
+198.51.100.8 - - [10/Oct/2013:00:44:46 ] "GET /community HTTP/1.0" 200 2762 "-" "Mozilla/5.0 (Windows; U; Windows NT 6.1; rv:2.2) Gecko/20110201"
+
+192.0.2.129 - - [10/Oct/2013:00:46:18 ] "GET /aws HTTP/1.0" 200 2221 "http://google.com" "Mozilla/5.0 (Linux; U; Android 2.3.5; en-us; HTC Vision Build/GRI40) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"
+
+192.0.2.12 - - [10/Oct/2013:00:48:22 ] "GET /linux HTTP/1.0" 200 4769 "http://www.linuxacademy.com" "Mozilla/5.0 (Windows; U; MSIE 9.0; WIndows NT 9.0; en-US))"
+
+198.51.100.224 - - [10/Oct/2013:00:52:56 ] "GET /linux-academy HTTP/1.0" 200 3564 "http://www.linuxacademy.com" "Mozilla/5.0 (Windows NT 5.1; rv:31.0) Gecko/20100101 Firefox/31.0"
+
