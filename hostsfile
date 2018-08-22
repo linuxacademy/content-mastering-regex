@@ -13,7 +13,6 @@
 10.0.2.304	confluence
 10.0.10.2	doc-test-servers
 10.0.100.24	dev
-[user@ellejaclyn1 ~]$ cat hostsfile
 127.0.0.1	localhost
 
 # demo environment
