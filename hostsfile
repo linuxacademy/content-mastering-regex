@@ -3,21 +3,6 @@
 # demo environment
 
 192.0.2.1	master
-192.0.2.2	master2
-192.0.2.32	db
-192.0.2.100	web1
-192.0.2.110	web2
-
-# internal
-
-10.0.2.304	confluence
-10.0.10.2	doc-test-servers
-10.0.100.24	dev
-127.0.0.1	localhost
-
-# demo environment
-
-192.0.2.1	master
 192.0.2.2       master2
 192.0.2.32  db
 192.0.2.100 		web1
