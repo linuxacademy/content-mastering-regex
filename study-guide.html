@@ -1,0 +1,247 @@
+<h1 id="mastering-regular-expressions">Mastering Regular Expressions</h1>
+<h2 id="introducing-regular-expressions">Introducing Regular Expressions</h2>
+<h3 id="what-are-regular-expressions">What Are Regular Expressions?</h3>
+<ul>
+<li>“Pattern-matching” language</li>
+<li>Generalize what to look for, then match any characters that fit that description</li>
+<li>Commonly seen in:
+<ul>
+<li>Web forms</li>
+<li>Find-and-replace features</li>
+<li>Parsing logs or any kind of text</li>
+</ul></li>
+</ul>
+<h3 id="tools">Tools</h3>
+<ul>
+<li>Where do we write regex?
+<ul>
+<li>In programming languages (Perl, Java, .NET, etc.; most support some kind of regex)</li>
+<li>With text processing applications (<code>sed</code>, <code>awk</code>, etc.)</li>
+<li>In other applications (InDesign)</li>
+</ul></li>
+<li>How can we test what we write?
+<ul>
+<li>Online regex testing websites:
+<ul>
+<li><a href="https://regexr.com/">RegExr</a></li>
+<li><a href="https://regex101.com/">Regex101</a></li>
+<li><a href="https://www.regexpal.com/">Regex Pal</a></li>
+</ul></li>
+</ul></li>
+</ul>
+<h3 id="the-regular-expressions-engine">The Regular Expressions Engine</h3>
+<ul>
+<li>Matchs the regex given to the left-most match in the provided text</li>
+<li>There is much more than a single engine</li>
+<li>Most engines are based on one of two algorithms:
+<ul>
+<li>Nondeterministic Finite Automaton
+<ul>
+<li>The regex expression can reference back to earlier in the expression
+<ul>
+<li><code>\d{1,3}</code>: The <code>{1,3}</code> references back to the <code>\d</code></li>
+</ul></li>
+<li>Seen in:
+<ul>
+<li>Perl</li>
+<li>Python</li>
+<li><code>sed</code></li>
+</ul></li>
+</ul></li>
+<li>Deterministic Finite Automaton
+<ul>
+<li>The regex expression <em>cannot</em> reference itself later in the expression
+<ul>
+<li><code>\d{1,3}</code> would fail, since the <code>{1,3}</code> references the <code>\d</code> before it</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+<h3 id="standards">Standards</h3>
+<ul>
+<li>IEEE POSIX standards:
+<ul>
+<li>SRE: Simple Regular Expressions; deprecated for BRE</li>
+<li>BRE: Basic Regular Expressions</li>
+<li>ERE: Extended Regular Expressions</li>
+<li>ERE builds off BRE:
+<ul>
+<li>Added repetition and alternation characters (<code>+</code>, <code>?</code>, <code>|</code>)</li>
+<li>In BRE, <code>{ }</code> and <code>( )</code> metacharacters must be written as <code>\{ \}</code> and <code>\( \)</code></li>
+</ul></li>
+<li>Uses <code>[:digit:]</code> “bracket expressions” versus <code>\d</code> character classes</li>
+</ul></li>
+<li>Perl Compatible Regular Expressions
+<ul>
+<li>Inspiration for Java, .NET, Python regex</li>
+<li>Supports some Python regex implementations</li>
+<li>Perl does not use all PCRE standards</li>
+</ul></li>
+<li>Examples with <code>grep</code>:
+<ul>
+<li><p>Match IP addresses in <code>access-log</code> file with PCRE (<code>-P</code>):</p>
+<p>$ grep -P ‘...’ access-log</p></li>
+<li><p>Match IP address in <code>access-log</code> file with ERE (<code>-E</code>):</p>
+<p>$ grep -E ‘[[:digit:]]{1,3}.[[:digit:]]{1,3}.[[:digit:]]{1,3}.[[:digit:]]{1,3}’ access-log</p></li>
+</ul></li>
+</ul>
+<h2 id="basic-regular-expressions">Basic Regular Expressions</h2>
+<h3 id="literal-pattern-matching">Literal Pattern Matching</h3>
+<ul>
+<li>Regex isn’t all complicated token and metacharacters</li>
+<li>Literal, plain text can be part of the expression</li>
+<li>Be conscious of using a metacharacter when you want a literal character</li>
+</ul>
+<h3 id="matching-characters-and-words">Matching Characters and Words</h3>
+<ul>
+<li><code>\w</code>: Match “word” characters (A-Z, a-z, 0-9)</li>
+<li><code>\W</code>: Match non-word characters (anything that is not A-Z, a-z, 0-9)</li>
+<li>Encase characters in square brackets to provide a range or list:
+<ul>
+<li><code>[a-z]</code>: Match any letter between <code>a</code> and <code>z</code>, lowercase only</li>
+<li><code>[C-K]</code>: Match any letter between <code>C</code> and <code>K</code>, uppercase only</li>
+<li><code>[ACK]</code>: Match either <code>A</code>, <code>C</code>, or <code>K</code></li>
+</ul></li>
+</ul>
+<h3 id="matching-digits">Matching Digits</h3>
+<ul>
+<li><code>\d</code>: Match any digit, 0-9</li>
+<li><code>\D</code>: Match anything that is not a digit (0-9)</li>
+<li>Encase in square brackets to provide a range or list:
+<ul>
+<li><code>[0-9]</code>: Match any digit between <code>0</code> and <code>9</code></li>
+<li><code>[4-7]</code>: Match any digit between <code>'4</code> and <code>7</code> (<code>4</code>, <code>5</code>, <code>6</code>, <code>7</code>)</li>
+<li><code>[347]</code>: Match either <code>3</code>, <code>4</code>, or <code>7</code></li>
+</ul></li>
+</ul>
+<h3 id="matching-whitespace">Matching Whitespace</h3>
+<ul>
+<li><code>\s</code>: Match any whitespace characters (tab, space, newline, carriage return)</li>
+<li><code>\S</code>: Match any non-whitespare characters</li>
+<li><code>\t</code>: Match any tabs</li>
+<li><code>\n</code>: Match any newlines</li>
+<li><code>\r</code>: Match any carriage returns</li>
+</ul>
+<h2 id="more-regular-expressions">More Regular Expressions</h2>
+<h3 id="location">Location</h3>
+<ul>
+<li><code>^</code>: Match start of line</li>
+<li><code>$</code>: Match end of line</li>
+<li><code>^\s+$</code>: Match blank line</li>
+</ul>
+<h3 id="boundaries">Boundaries</h3>
+<ul>
+<li><code>\b</code>: Does not match anything, but marks a boundary; at the start of an expression it ensures the previous token is not a word character (<code>\w</code>), while at the end of an expression, it ensures the next token is not a word character</li>
+<li><code>\B</code>: Does not match anything, but marks a boundary; at the end of an expression it ensures the previous token is not a non-word character (<code>\W</code>), while at the end of an expression, it ensures the next token is not a non-word character</li>
+<li><code>\&lt; ... \&gt;</code>: Some older programs (such as Vim) use <code>\&lt;</code> and <code>\&gt;</code> to mark boundaries; these work as boundaries against both word and non-word characters (<code>\w</code> and <code>\W</code>)</li>
+</ul>
+<h3 id="alternation">Alternation</h3>
+<ul>
+<li><code>|</code>: “Or”; match one of the provided subexpressions; there can be more than two subexpressions
+<ul>
+<li><code>(NJ|PA)</code>: Match <code>NJ</code> or <code>PA</code></li>
+</ul></li>
+</ul>
+<h3 id="repetition">Repetition</h3>
+<ul>
+<li><code>?</code>: Make preceding token optional; can be an individual character or subexpression contained in a group</li>
+<li><code>+</code>: Repeat preceding token or subexpression one or more times</li>
+<li><code>*</code>: Repeat preceding token or subexpression zero or more times</li>
+</ul>
+<h3 id="possessive-quantifiers">Possessive Quantifiers</h3>
+<ul>
+<li><code>.</code>: Wildcard; match any single character</li>
+<li>When using repetition (<code>+</code>, <code>*</code>) alongside the <code>.</code> metacharacter, the regex engine will try to match as much as possible
+<ul>
+<li>“Greedy” or “possessive”</li>
+</ul></li>
+<li>Use <code>?</code> after the quantifier to force the engine to match as few matches as possible
+<ul>
+<li>“Ungreedy” or “lazy”</li>
+</ul></li>
+</ul>
+<h2 id="classes-groups-and-backreferences">Classes, Groups, and Backreferences</h2>
+<h3 id="more-character-classes">More Character Classes</h3>
+<ul>
+<li><code>[...]</code>: Anything encased in square brackets is a character class
+<ul>
+<li>Commonly used for ranges <code>[a-zA-Z0-9]</code></li>
+</ul></li>
+<li><code>[^...]</code>: Negated character class; anything encased in square brackets with a caret (<code>^</code>) cannot be matched</li>
+<li>XML, XPath, .NET, and JGSoft regex only:
+<ul>
+<li>Subtract from ranges: <code>[A-Z-[N]]</code> (matched <code>A-M</code>, <code>O-Z</code>; does not match <code>N</code>)</li>
+</ul></li>
+</ul>
+<h3 id="backreferences">Backreferences</h3>
+<ul>
+<li><code>( ... )</code>: Create a capturing group
+<ul>
+<li>Capturing groups are named in their numerical order</li>
+</ul></li>
+<li><code>\#</code>: Reference a capturing group, where <code>#</code> is the number of the group</li>
+<li>In <code>(H2) ... \1</code>, <code>(H2)</code> matches <code>H2</code>, while <code>\1</code> also matches <code>H2</code></li>
+</ul>
+<h3 id="named-groups">Named Groups</h3>
+<ul>
+<li>Give backreferences names</li>
+<li>Python:
+<ul>
+<li>Set named group with:
+<ul>
+<li><code>(?P&lt;ID&gt; ... )</code></li>
+</ul></li>
+<li>Reference named group with:
+<ul>
+<li><code>(?P=ID)</code></li>
+</ul></li>
+</ul></li>
+<li>.NET:
+<ul>
+<li>Set named group with:
+<ul>
+<li><code>(?&lt;tag&gt; ... )</code></li>
+<li><code>(?'tag' ... )</code></li>
+</ul></li>
+<li>Reference named group with:
+<ul>
+<li><code>\k&lt;tag&gt;</code></li>
+<li><code>\k'tag'</code></li>
+</ul></li>
+</ul></li>
+<li>PCRE:
+<ul>
+<li>Set named group with:
+<ul>
+<li><code>(?P&lt;ID&gt; ... )</code></li>
+<li><code>(?&lt;tag&gt; ... )</code></li>
+<li><code>(?'tag' ... )</code></li>
+</ul></li>
+<li>Reference named group with:
+<ul>
+<li><code>(?P=ID)</code></li>
+<li><code>\k&lt;tag&gt;</code></li>
+<li><code>\k'tag'</code></li>
+<li><code>\k{tag}</code></li>
+<li><code>\g{tag}</code></li>
+</ul></li>
+</ul></li>
+</ul>
+<h3 id="non-capturing-groups">Non-Capturing Groups</h3>
+<ul>
+<li><code>(?: ... )</code>: Create a non-capturing group</li>
+<li>Non-capturing groups do not count when numbering capturing groups</li>
+</ul>
+<h2 id="lookarounds">Lookarounds</h2>
+<h3 id="lookaheads">Lookaheads</h3>
+<ul>
+<li>Allows us to reference an expression and use it as a boundary</li>
+<li><code>(?= ... )</code>: A positive lookahead; the regex engine ensures this match exists as a boundary following the expression but does not capturing it</li>
+<li><code>(?! ... )</code>: A negative lookahead; the regex engine ensures this match does <em>not</em> exist as a boundary following the expression</li>
+</ul>
+<h3 id="lookbehinds">Lookbehinds</h3>
+<ul>
+<li>Allows us to reference an expression and use it as a boundary</li>
+<li><code>(?&lt;= ... )</code>: A positive lookbehind; the regex engine ensures this match exists as a boundary <em>before</em> the expression but does not capture it</li>
+<li><code>(?&lt;! ... )</code>: A negative lookbehind; the regex engine ensures this match does <em>not</em> exist as a boundary <em>before</em> the expression</li>
+</ul>
