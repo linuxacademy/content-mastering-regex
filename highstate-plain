@@ -1,0 +1,126 @@
+minion1:
+----------
+          ID: php_install
+    Function: pkg.installed
+        Name: php
+      Result: True
+     Comment: All specified packages are already installed
+     Started: 16:19:04.217642
+    Duration: 587.977 ms
+     Changes:   
+----------
+          ID: mod_mysql
+    Function: pkg.installed
+        Name: php-mysql
+      Result: True
+     Comment: All specified packages are already installed
+     Started: 16:19:04.805807
+    Duration: 14.708 ms
+     Changes:   
+----------
+          ID: mod_curl
+    Function: pkg.installed
+        Name: php-curl
+      Result: True
+     Comment: All specified packages are already installed
+     Started: 16:19:04.820690
+    Duration: 14.099 ms
+     Changes:   
+----------
+          ID: mod_xml
+    Function: pkg.installed
+        Name: php-xml
+      Result: True
+     Comment: All specified packages are already installed
+     Started: 16:19:04.834958
+    Duration: 13.734 ms
+     Changes:   
+----------
+          ID: mod_gd
+    Function: pkg.installed
+        Name: php-gd
+      Result: True
+     Comment: All specified packages are already installed
+     Started: 16:19:04.848951
+    Duration: 14.303 ms
+     Changes:   
+----------
+          ID: mod_mbstring
+    Function: pkg.installed
+        Name: php-mbstring
+      Result: True
+     Comment: All specified packages are already installed
+     Started: 16:19:04.863402
+    Duration: 13.866 ms
+     Changes:   
+----------
+          ID: mod_xmlrpc
+    Function: pkg.installed
+        Name: php-xmlrpc
+      Result: True
+     Comment: All specified packages are already installed
+     Started: 16:19:04.877454
+    Duration: 15.406 ms
+     Changes:   
+----------
+          ID: apache_install
+    Function: pkg.installed
+        Name: apache2
+      Result: True
+     Comment: All specified packages are already installed
+     Started: 16:19:04.893040
+    Duration: 13.854 ms
+     Changes:   
+----------
+          ID: apache_config_file
+    Function: file.managed
+        Name: /etc/apache2/apache2.conf
+      Result: True
+     Comment: File /etc/apache2/apache2.conf is in the correct state
+     Started: 16:19:04.910851
+    Duration: 34.054 ms
+     Changes:   
+----------
+          ID: apache_restart
+    Function: module.wait
+        Name: service.restart
+      Result: True
+     Comment: State was not run because none of the onchanges reqs changed
+     Started: 16:19:04.945247
+    Duration: 0.014 ms
+     Changes:   
+----------
+          ID: eski_vhosts
+    Function: apache.configfile
+        Name: /etc/apache2/sites-available/eski.conf
+      Result: True
+     Comment: Configuration is up to date.
+     Started: 16:19:04.947365
+    Duration: 2.995 ms
+     Changes:   
+----------
+          ID: server_install_mysql
+    Function: pkg.installed
+        Name: mysql-server
+      Result: True
+     Comment: All specified packages are already installed
+     Started: 16:19:04.950702
+    Duration: 15.713 ms
+     Changes:   
+----------
+          ID: server_install_mysql
+    Function: service.running
+        Name: mysql
+      Result: True
+     Comment: The service mysql is already running
+     Started: 16:19:04.967172
+    Duration: 48.325 ms
+     Changes:   
+
+Summary for minion1
+-------------
+Succeeded: 13
+Failed:     0
+-------------
+Total states run:     13
+Total run time:  789.048 ms
