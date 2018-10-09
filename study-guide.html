@@ -245,3 +245,18 @@
 <li><code>(?&lt;= ... )</code>: A positive lookbehind; the regex engine ensures this match exists as a boundary <em>before</em> the expression but does not capture it</li>
 <li><code>(?&lt;! ... )</code>: A negative lookbehind; the regex engine ensures this match does <em>not</em> exist as a boundary <em>before</em> the expression</li>
 </ul>
+<h2 id="conditionals">Conditionals</h2>
+<h3 id="if-confitionals">if Confitionals</h3>
+<ul>
+<li>Allows us to reference matched text to determine how the regular expression works
+<ul>
+<li>“If the expressions matches”a“, do this; if it does not, do this other thing”</li>
+</ul></li>
+<li><code>(?(if)then|else)</code>: If the expression matches the text referenced in <code>if</code>, match the expression in <code>then</code>; if it does not match the expression in <code>else</code>.</li>
+</ul>
+<h3 id="named-conditionals">Named Conditionals</h3>
+<ul>
+<li>Allows us to use named backreferences when using conditionals</li>
+<li>When referencing that backreference in the <code>if</code> state, only use the name of the reference, do not call the reference as normal (i.e., do not use <code>\g{named_ref}</code>)</li>
+<li>Otherwise works as a normal conditional</li>
+</ul>
