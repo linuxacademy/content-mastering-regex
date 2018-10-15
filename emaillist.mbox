@@ -54,7 +54,7 @@ Received: from mta01.mxof.net ([127.0.0.1])
 Received: from kens-mbp.hsd1.ca.comcast.net (c-73-192-239-205.hsd1.ca.comcast.net [73.192.239.205])
 	by mta01.mxof.net (Postfix) with ESMTPSA id 85F312620E0
 	for <builds@apache.org>; Tue,  5 Jun 2018 11:19:03 -0700 (PDT)
-From: Ken <k23423@gmail.com>
+From: Ken <k23423@ethercloud.io>
 Content-Type: multipart/alternative;
  boundary="Apple-Mail=_CCD98049-6552-4041-8ECE-CE292DC5325B"
 Mime-Version: 1.0 (Mac OS X Mail 10.3 \(3273\))
@@ -164,7 +164,7 @@ DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=16degrees.com.au;
 	b=jEdaPCqvEi5mnSckGDdYMIT1fs/7J7I/tSklpkE4sKpmp5cQg72qoIs9QCraQC43U
 	 hc7F4opdueqJMnIj4dKyNMj+XwSiquczR/jNWX4dzXGPpAFMgJq/YEPCi7/H/nYbld
 	 rexXFFFai9uk1CZQRe4n5Fa57FqWr01BdGsc0lfM=
-From: Gavin <g23432423@gmail.com>
+From: Gavin <g23432423@ethercloud.io>
 Content-Type: text/plain;
 	charset=utf-8
 Content-Transfer-Encoding: quoted-printable
@@ -189,7 +189,7 @@ Will let you know when its ready.
 Gav=E2=80=A6
 
 
-> On 6 Jun 2018, at 4:19 am, Ken <k23423@gmail.com> wrote:
+> On 6 Jun 2018, at 4:19 am, Ken <k23423@ethercloud.io> wrote:
 >=20
 > Hi build admins,
 >=20
@@ -251,7 +251,7 @@ X-Spam-Status: No, score=1.869 tagged_above=-999 required=6.31
 	RCVD_IN_MSPIKE_WL=-0.01, SPF_PASS=-0.001, T_DKIMWL_WL_MED=-0.01]
 	autolearn=disabled
 Authentication-Results: spamd4-us-west.apache.org (amavisd-new);
-	dkim=pass (2048-bit key) header.d=gmail.com
+	dkim=pass (2048-bit key) header.d=ethercloud.io
 Received: from mx1-lw-us.apache.org ([10.40.0.8])
 	by localhost (spamd4-us-west.apache.org [10.40.0.11]) (amavisd-new, port 10024)
 	with ESMTP id 3x4y1x6wcGnX for <builds@apache.org>;
@@ -262,7 +262,7 @@ Received: from mail-ua0-f193.google.com (mail-ua0-f193.google.com [209.85.217.19
 Received: by mail-ua0-f193.google.com with SMTP id a5-v6so5173806uao.8
         for <builds@apache.org>; Wed, 06 Jun 2018 15:49:20 -0700 (PDT)
 DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
-        d=gmail.com; s=20161025;
+        d=ethercloud.io; s=20161025;
         h=mime-version:references:in-reply-to:from:date:message-id:subject:to;
         bh=DKw4/MRo5EF4nKWZ8H4BWMuVPzWTZRxmTNS+e0uvayg=;
         b=lKQReE5zeeVNSWodaD27mCdZY+0ToOlgYZQt+scUTBnX0ohVfqKNbrgr1hTpnoIf7i
@@ -290,9 +290,9 @@ X-Received: by 2002:ab0:130a:: with SMTP id g10-v6mr3127405uae.175.1528325353693
 MIME-Version: 1.0
 References: <B15B842E-322A-4A24-9022-CCEA6732E920@apache.org>
 In-Reply-To: <B15B842E-322A-4A24-9022-CCEA6732E920@apache.org>
-From: Music <m23423423@gmail.com>
+From: Music <m23423423@ethercloud.io>
 Date: Thu, 7 Jun 2018 04:49:01 +0600
-Message-ID: <CAMkGON=43dRQHpjXTtXrENvHqJzdYDbTmHSaz=NsuEpVQ=eDrw@mail.gmail.com>
+Message-ID: <CAMkGON=43dRQHpjXTtXrENvHqJzdYDbTmHSaz=NsuEpVQ=eDrw@mail.ethercloud.io>
 Subject: Re: Project-specific sitemap for build server content
 To: builds@apache.org
 Content-Type: multipart/alternative; boundary="000000000000cee8f2056e00f988"
@@ -441,10 +441,10 @@ X-Received: by 2002:a6b:150:: with SMTP id 77-v6mr5576860iob.138.1528477043637;
 MIME-Version: 1.0
 Received: by 2002:a6b:ca87:0:0:0:0:0 with HTTP;
  Fri, 8 Jun 2018 09:57:22 -0700 (PDT)
-From: Lance <l23423423@gmail.com>
+From: Lance <l23423423@ethercloud.io>
 Date: Fri, 8 Jun 2018 09:57:22 -0700
 X-Google-Sender-Auth: HSMSykp5X4Wv-DjLO-Aq44CuywQ
-Message-ID: <CAORfjXQa189iiHSoOKbTUfxK=w4_QQ_UxvrcSAGmjaWzEMA-mA@mail.gmail.com>
+Message-ID: <CAORfjXQa189iiHSoOKbTUfxK=w4_QQ_UxvrcSAGmjaWzEMA-mA@mail.ethercloud.io>
 To: hosting@osuosl.org
 Subject: [Hosting] ns2.osuosl.org maintenance - June 11,
  2018 10am PDT (June 11, 2018 1500 UTC)
@@ -623,7 +623,7 @@ DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=16degrees.com.au;
 	b=b3MRkf4gLjYJzc02QXzaEby3+6Pgs5o8qt9rZ7TDQhV/EETqYjerh9jKu1EVmkHdr
 	 ojWedhh58IJKW5/CSUiVUAf7FPmw4MAaThqODCJk5AIZqRHi0sfC6jfiA5rHXnGJ8t
 	 UPqEcwwXl3w1XgCVuAJcp21BJfQdKznUjXmFCMsA=
-From: Gavin <g23432423@gmail.com>
+From: Gavin <g23432423@ethercloud.io>
 Content-Type: multipart/alternative;
 	boundary="Apple-Mail=_D4C0860C-A751-4928-A7C7-9EC273CBCE33"
 Mime-Version: 1.0 (Mac OS X Mail 11.3 \(3445.6.18\))
@@ -665,7 +665,7 @@ ildbot_asf/files/sitemap-index.xml=20
 
 
 
-> On 6 Jun 2018, at 8:46 pm, Gavin <g23432423@gmail.com> =
+> On 6 Jun 2018, at 8:46 pm, Gavin <g23432423@ethercloud.io> =
 wrote:
 >=20
 > Hi Ken,
@@ -681,7 +681,7 @@ there.
 > Gav=E2=80=A6
 >=20
 >=20
->> On 6 Jun 2018, at 4:19 am, Ken <k23423@gmail.com> wrote:
+>> On 6 Jun 2018, at 4:19 am, Ken <k23423@ethercloud.io> wrote:
 >>=20
 >> Hi build admins,
 >>=20
@@ -766,7 +766,7 @@ Received: from mta01.mxof.net ([127.0.0.1])
 Received: from [172.16.0.107] (c-73-158-78-75.hsd1.ca.comcast.net [73.158.78.75])
 	by mta01.mxof.net (Postfix) with ESMTPSA id D5B0B26307B;
 	Tue, 12 Jun 2018 12:52:10 -0700 (PDT)
-From: Ken <k23423@gmail.com>
+From: Ken <k23423@ethercloud.io>
 Content-Type: multipart/alternative;
  boundary="Apple-Mail=_6C1DB47C-7E19-4929-BF69-630E78C180AB"
 Mime-Version: 1.0 (Mac OS X Mail 10.3 \(3273\))
@@ -921,10 +921,10 @@ X-Received: by 2002:a6b:3902:: with SMTP id
 MIME-Version: 1.0
 Received: by 2002:a6b:cf05:0:0:0:0:0 with HTTP; Wed, 13 Jun 2018 07:48:29
  -0700 (PDT)
-From: Lance <l23423423@gmail.com>
+From: Lance <l23423423@ethercloud.io>
 Date: Wed, 13 Jun 2018 07:48:29 -0700
 X-Google-Sender-Auth: -dP9_P22oGeCaLujaPqkWBhcwIw
-Message-ID: <CAORfjXRQca2cn+UhOL1_dCG8Ki2VZG-hN0jRONJKci8EVAZ_NQ@mail.gmail.com>
+Message-ID: <CAORfjXRQca2cn+UhOL1_dCG8Ki2VZG-hN0jRONJKci8EVAZ_NQ@mail.ethercloud.io>
 To: hosting@osuosl.org
 Subject: [Hosting] Unplanned outage: Hypervisor issue with gprod1 on primary
  Ganeti cluster
@@ -1109,10 +1109,10 @@ X-Received: by 2002:a6b:3902:: with SMTP id
 MIME-Version: 1.0
 Received: by 2002:a6b:cf05:0:0:0:0:0 with HTTP; Thu, 14 Jun 2018 10:00:10
  -0700 (PDT)
-From: Lance <l23423423@gmail.com>
+From: Lance <l23423423@ethercloud.io>
 Date: Thu, 14 Jun 2018 10:00:10 -0700
 X-Google-Sender-Auth: tcCj7WOhqvK4udrKHr0kUkCi1lI
-Message-ID: <CAORfjXT2oHAu6fC_7yBpb9UQeCKDSs7sZM5_kiWRGRhPn8LQWQ@mail.gmail.com>
+Message-ID: <CAORfjXT2oHAu6fC_7yBpb9UQeCKDSs7sZM5_kiWRGRhPn8LQWQ@mail.ethercloud.io>
 To: hosting@osuosl.org
 Subject: [Hosting] ftp-osl storage upgrade (full rebuild required) - Jun 18,
  2018 9:30AM PDT (Jun 18 1630 UTC)
@@ -1390,12 +1390,12 @@ X-Received: by 2002:a6b:d40c:: with SMTP id
 MIME-Version: 1.0
 Received: by 2002:a6b:cf05:0:0:0:0:0 with HTTP; Thu, 14 Jun 2018 15:52:55
  -0700 (PDT)
-In-Reply-To: <CAORfjXT2oHAu6fC_7yBpb9UQeCKDSs7sZM5_kiWRGRhPn8LQWQ@mail.gmail.com>
-References: <CAORfjXT2oHAu6fC_7yBpb9UQeCKDSs7sZM5_kiWRGRhPn8LQWQ@mail.gmail.com>
-From: Lance <l23423423@gmail.com>
+In-Reply-To: <CAORfjXT2oHAu6fC_7yBpb9UQeCKDSs7sZM5_kiWRGRhPn8LQWQ@mail.ethercloud.io>
+References: <CAORfjXT2oHAu6fC_7yBpb9UQeCKDSs7sZM5_kiWRGRhPn8LQWQ@mail.ethercloud.io>
+From: Lance <l23423423@ethercloud.io>
 Date: Thu, 14 Jun 2018 15:52:55 -0700
 X-Google-Sender-Auth: tzOlRLgZRE8_Let2dBxOXh3rpn0
-Message-ID: <CAORfjXTPupsjyqXD3feAqWXSovd2rU9rPX=fReLStka33vB27w@mail.gmail.com>
+Message-ID: <CAORfjXTPupsjyqXD3feAqWXSovd2rU9rPX=fReLStka33vB27w@mail.ethercloud.io>
 To: hosting@osuosl.org
 Subject: Re: [Hosting] ftp-osl storage upgrade (full rebuild required) - Jun
  18, 2018 9:30AM PDT (Jun 18 1630 UTC)
@@ -1426,7 +1426,7 @@ performance hit during that window but it's hard to tell. There will be a
 short (likely 5 min) outage to read/writes on ftp-osl when I do the final
 switch back to local storage however.
 
-On Thu, Jun 14, 2018 at 10:00 AM, Lance <l23423423@gmail.com> wrote:
+On Thu, Jun 14, 2018 at 10:00 AM, Lance <l23423423@ethercloud.io> wrote:
 
 > Service(s) affected: ftp.osuosl.org
 >
@@ -1522,8 +1522,8 @@ ce hit during that window but it&#39;s hard to tell. There will be a short =
 (likely 5 min) outage to read/writes on ftp-osl when I do the final switch =
 back to local storage however.</div></div><div class=3D"gmail_extra"><br><d=
 iv class=3D"gmail_quote">On Thu, Jun 14, 2018 at 10:00 AM, Lance =
-<span dir=3D"ltr">&lt;<a href=3D"mailto:l23423423@gmail.com" target=3D"_blank"=
->l23423423@gmail.com</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote=
+<span dir=3D"ltr">&lt;<a href=3D"mailto:l23423423@ethercloud.io" target=3D"_blank"=
+>l23423423@ethercloud.io</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote=
 " style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><=
 div dir=3D"ltr"><div class=3D"gmail_default"><div class=3D"gmail_default"><=
 font face=3D"arial, helvetica, sans-serif">Service(s) affected: <a href=3D"=
@@ -1655,10 +1655,10 @@ X-Received: by 2002:a9d:513b:: with SMTP id c56-v6mr7503174oth.397.1529336445936
 MIME-Version: 1.0
 Received: by 2002:a9d:5b2f:0:0:0:0:0 with HTTP; Mon, 18 Jun 2018 08:40:45
  -0700 (PDT)
-From: Daniel <d23423432@gmail.com>
+From: Daniel <d23423432@ethercloud.io>
 Date: Mon, 18 Jun 2018 08:40:45 -0700
-X-Gmail-Original-Message-ID: <CAKYPbis-v1kvTb2+d1EB=chtH9Gi7b2iBFksO7g_irsvCO2-8w@mail.gmail.com>
-Message-ID: <CAKYPbis-v1kvTb2+d1EB=chtH9Gi7b2iBFksO7g_irsvCO2-8w@mail.gmail.com>
+X-Gmail-Original-Message-ID: <CAKYPbis-v1kvTb2+d1EB=chtH9Gi7b2iBFksO7g_irsvCO2-8w@mail.ethercloud.io>
+Message-ID: <CAKYPbis-v1kvTb2+d1EB=chtH9Gi7b2iBFksO7g_irsvCO2-8w@mail.ethercloud.io>
 Subject: H0,8,30 are down
 To: Rajiv Chittajallu <rajive@yahoo-inc.com>
 Cc: builds@apache.org
@@ -1775,13 +1775,13 @@ X-Received: by 2002:a6b:5c0c:: with SMTP id
 MIME-Version: 1.0
 Received: by 2002:a6b:cf05:0:0:0:0:0 with HTTP; Mon, 18 Jun 2018 15:49:12
  -0700 (PDT)
-In-Reply-To: <CAORfjXTPupsjyqXD3feAqWXSovd2rU9rPX=fReLStka33vB27w@mail.gmail.com>
-References: <CAORfjXT2oHAu6fC_7yBpb9UQeCKDSs7sZM5_kiWRGRhPn8LQWQ@mail.gmail.com>
- <CAORfjXTPupsjyqXD3feAqWXSovd2rU9rPX=fReLStka33vB27w@mail.gmail.com>
-From: Lance <l23423423@gmail.com>
+In-Reply-To: <CAORfjXTPupsjyqXD3feAqWXSovd2rU9rPX=fReLStka33vB27w@mail.ethercloud.io>
+References: <CAORfjXT2oHAu6fC_7yBpb9UQeCKDSs7sZM5_kiWRGRhPn8LQWQ@mail.ethercloud.io>
+ <CAORfjXTPupsjyqXD3feAqWXSovd2rU9rPX=fReLStka33vB27w@mail.ethercloud.io>
+From: Lance <l23423423@ethercloud.io>
 Date: Mon, 18 Jun 2018 15:49:12 -0700
 X-Google-Sender-Auth: eiY8yZb0M4vM02PHiqcscwbM14I
-Message-ID: <CAORfjXTkaiPpttLB00AowftKeX2NygiVuCFRXpdECgG5qy44Ag@mail.gmail.com>
+Message-ID: <CAORfjXTkaiPpttLB00AowftKeX2NygiVuCFRXpdECgG5qy44Ag@mail.ethercloud.io>
 To: hosting@osuosl.org
 Subject: Re: [Hosting] ftp-osl storage upgrade (full rebuild required) - Jun
  18, 2018 9:30AM PDT (Jun 18 1630 UTC)
@@ -1823,7 +1823,7 @@ local storage. Please let me know if you notice any issues.
 
 Thanks-
 
-On Thu, Jun 14, 2018 at 3:52 PM, Lance <l23423423@gmail.com> wrote:
+On Thu, Jun 14, 2018 at 3:52 PM, Lance <l23423423@ethercloud.io> wrote:
 
 > I had a few questions regarding this outages that I wanted to clarify for
 > everyone.
@@ -1837,7 +1837,7 @@ On Thu, Jun 14, 2018 at 3:52 PM, Lance <l23423423@gmail.com> wrote:
 > short (likely 5 min) outage to read/writes on ftp-osl when I do the final
 > switch back to local storage however.
 >
-> On Thu, Jun 14, 2018 at 10:00 AM, Lance <l23423423@gmail.com>
+> On Thu, Jun 14, 2018 at 10:00 AM, Lance <l23423423@ethercloud.io>
 > wrote:
 >
 >> Service(s) affected: ftp.osuosl.org
@@ -1956,7 +1956,7 @@ h back over to local storage. Please let me know if you notice any issues.<=
 -serif"><br></div><div class=3D"gmail_default" style=3D"font-family:arial,h=
 elvetica,sans-serif">Thanks-</div></div><div class=3D"gmail_extra"><br><div=
  class=3D"gmail_quote">On Thu, Jun 14, 2018 at 3:52 PM, Lance <sp=
-an dir=3D"ltr">&lt;<a href=3D"mailto:l23423423@gmail.com" target=3D"_blank">la=
+an dir=3D"ltr">&lt;<a href=3D"mailto:l23423423@ethercloud.io" target=3D"_blank">la=
 nce@osuosl.org</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" s=
 tyle=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div=
  dir=3D"ltr"><div class=3D"gmail_default" style=3D"font-family:arial,helvet=
@@ -1975,7 +1975,7 @@ be a little bit of I/O performance hit during that window but it&#39;s hard=
 -osl when I do the final switch back to local storage however.</div></div><=
 div class=3D"HOEnZb"><div class=3D"h5"><div class=3D"gmail_extra"><br><div =
 class=3D"gmail_quote">On Thu, Jun 14, 2018 at 10:00 AM, Lance <sp=
-an dir=3D"ltr">&lt;<a href=3D"mailto:l23423423@gmail.com" target=3D"_blank">la=
+an dir=3D"ltr">&lt;<a href=3D"mailto:l23423423@ethercloud.io" target=3D"_blank">la=
 nce@osuosl.org</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" s=
 tyle=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div=
  dir=3D"ltr"><div class=3D"gmail_default"><div class=3D"gmail_default"><fon=
@@ -2184,14 +2184,14 @@ X-Received: by 2002:a24:4457:: with SMTP id
 MIME-Version: 1.0
 Received: by 2002:a6b:cf05:0:0:0:0:0 with HTTP; Tue, 19 Jun 2018 08:57:47
  -0700 (PDT)
-In-Reply-To: <CAORfjXTkaiPpttLB00AowftKeX2NygiVuCFRXpdECgG5qy44Ag@mail.gmail.com>
-References: <CAORfjXT2oHAu6fC_7yBpb9UQeCKDSs7sZM5_kiWRGRhPn8LQWQ@mail.gmail.com>
- <CAORfjXTPupsjyqXD3feAqWXSovd2rU9rPX=fReLStka33vB27w@mail.gmail.com>
- <CAORfjXTkaiPpttLB00AowftKeX2NygiVuCFRXpdECgG5qy44Ag@mail.gmail.com>
-From: Lance <l23423423@gmail.com>
+In-Reply-To: <CAORfjXTkaiPpttLB00AowftKeX2NygiVuCFRXpdECgG5qy44Ag@mail.ethercloud.io>
+References: <CAORfjXT2oHAu6fC_7yBpb9UQeCKDSs7sZM5_kiWRGRhPn8LQWQ@mail.ethercloud.io>
+ <CAORfjXTPupsjyqXD3feAqWXSovd2rU9rPX=fReLStka33vB27w@mail.ethercloud.io>
+ <CAORfjXTkaiPpttLB00AowftKeX2NygiVuCFRXpdECgG5qy44Ag@mail.ethercloud.io>
+From: Lance <l23423423@ethercloud.io>
 Date: Tue, 19 Jun 2018 08:57:47 -0700
 X-Google-Sender-Auth: cbQCXGoWcK056E0yY6TccPUgf40
-Message-ID: <CAORfjXQi3FBs42dVZ2+ebQNt+ayuSTf-9jykMVFoF6ViLQmBeA@mail.gmail.com>
+Message-ID: <CAORfjXQi3FBs42dVZ2+ebQNt+ayuSTf-9jykMVFoF6ViLQmBeA@mail.ethercloud.io>
 To: hosting@osuosl.org
 Subject: Re: [Hosting] ftp-osl storage upgrade (full rebuild required) - Jun
  18, 2018 9:30AM PDT (Jun 18 1630 UTC)
@@ -2222,7 +2222,7 @@ I will send another update once I'm ready switch the system back over.
 
 Thanks-
 
-On Mon, Jun 18, 2018 at 3:49 PM, Lance <l23423423@gmail.com> wrote:
+On Mon, Jun 18, 2018 at 3:49 PM, Lance <l23423423@ethercloud.io> wrote:
 
 > I just wanted to send you all an update on where we're at in the process.
 >
@@ -2247,7 +2247,7 @@ On Mon, Jun 18, 2018 at 3:49 PM, Lance <l23423423@gmail.com> wrote:
 >
 > Thanks-
 >
-> On Thu, Jun 14, 2018 at 3:52 PM, Lance <l23423423@gmail.com> wrote:
+> On Thu, Jun 14, 2018 at 3:52 PM, Lance <l23423423@ethercloud.io> wrote:
 >
 >> I had a few questions regarding this outages that I wanted to clarify for
 >> everyone.
@@ -2261,7 +2261,7 @@ On Mon, Jun 18, 2018 at 3:49 PM, Lance <l23423423@gmail.com> wrote:
 >> short (likely 5 min) outage to read/writes on ftp-osl when I do the final
 >> switch back to local storage however.
 >>
->> On Thu, Jun 14, 2018 at 10:00 AM, Lance <l23423423@gmail.com>
+>> On Thu, Jun 14, 2018 at 10:00 AM, Lance <l23423423@ethercloud.io>
 >> wrote:
 >>
 >>> Service(s) affected: ftp.osuosl.org
@@ -2352,7 +2352,7 @@ t" style=3D"font-family:arial,helvetica,sans-serif"><br></div><div class=3D=
 "gmail_default" style=3D"font-family:arial,helvetica,sans-serif">Thanks-</d=
 iv><div class=3D"gmail_extra"><br><div class=3D"gmail_quote">On Mon, Jun 18=
 , 2018 at 3:49 PM, Lance <span dir=3D"ltr">&lt;<a href=3D"mailto:=
-l23423423@gmail.com" target=3D"_blank">l23423423@gmail.com</a>&gt;</span> wrote:<=
+l23423423@ethercloud.io" target=3D"_blank">l23423423@ethercloud.io</a>&gt;</span> wrote:<=
 br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left=
 :1px #ccc solid;padding-left:1ex"><div dir=3D"ltr"><div style=3D"font-famil=
 y:arial,helvetica,sans-serif">I just wanted to send you all an update on wh=
@@ -2381,7 +2381,7 @@ ial,helvetica,sans-serif"><br></div><div style=3D"font-family:arial,helveti=
 ca,sans-serif">Thanks-</div></div><div class=3D"HOEnZb"><div class=3D"h5"><=
 div class=3D"gmail_extra"><br><div class=3D"gmail_quote">On Thu, Jun 14, 20=
 18 at 3:52 PM, Lance <span dir=3D"ltr">&lt;<a href=3D"mailto:lanc=
-e@osuosl.org" target=3D"_blank">l23423423@gmail.com</a>&gt;</span> wrote:<br><=
+e@osuosl.org" target=3D"_blank">l23423423@ethercloud.io</a>&gt;</span> wrote:<br><=
 blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px=
  #ccc solid;padding-left:1ex"><div dir=3D"ltr"><div style=3D"font-family:ar=
 ial,helvetica,sans-serif">I had a few questions regarding this outages that=
@@ -2399,7 +2399,7 @@ writes on ftp-osl when I do the final switch back to local storage however.=
 </div></div><div class=3D"m_3870958838149578767HOEnZb"><div class=3D"m_3870=
 958838149578767h5"><div class=3D"gmail_extra"><br><div class=3D"gmail_quote=
 ">On Thu, Jun 14, 2018 at 10:00 AM, Lance <span dir=3D"ltr">&lt;<=
-a href=3D"mailto:l23423423@gmail.com" target=3D"_blank">l23423423@gmail.com</a>&g=
+a href=3D"mailto:l23423423@ethercloud.io" target=3D"_blank">l23423423@ethercloud.io</a>&g=
 t;</span> wrote:<br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0=
  .8ex;border-left:1px #ccc solid;padding-left:1ex"><div dir=3D"ltr"><div><d=
 iv><font face=3D"arial, helvetica, sans-serif">Service(s) affected: <a href=
@@ -2512,7 +2512,7 @@ x-ponymail-agent: PonyMail Composer/0.3
 X-Mailer: LuaSocket 3.0-rc1
 Subject: [DISCUSS] Deploy releases to DockerHub
 References:  
-From: Francesco <f2345345435@gmail.com>
+From: Francesco <f2345345435@ethercloud.io>
 x-ponymail-sender: 87a5167ba7308cfafe6d52aefcc07afdfe1aa28d
 
 Hi there,
@@ -2630,15 +2630,15 @@ X-Received: by 2002:a02:34e:: with SMTP id y75-v6mr2339029jad.28.1529696685454;
 MIME-Version: 1.0
 Received: by 2002:a6b:cf05:0:0:0:0:0 with HTTP; Fri, 22 Jun 2018 12:44:44
  -0700 (PDT)
-In-Reply-To: <CAORfjXQi3FBs42dVZ2+ebQNt+ayuSTf-9jykMVFoF6ViLQmBeA@mail.gmail.com>
-References: <CAORfjXT2oHAu6fC_7yBpb9UQeCKDSs7sZM5_kiWRGRhPn8LQWQ@mail.gmail.com>
- <CAORfjXTPupsjyqXD3feAqWXSovd2rU9rPX=fReLStka33vB27w@mail.gmail.com>
- <CAORfjXTkaiPpttLB00AowftKeX2NygiVuCFRXpdECgG5qy44Ag@mail.gmail.com>
- <CAORfjXQi3FBs42dVZ2+ebQNt+ayuSTf-9jykMVFoF6ViLQmBeA@mail.gmail.com>
-From: Lance <l23423423@gmail.com>
+In-Reply-To: <CAORfjXQi3FBs42dVZ2+ebQNt+ayuSTf-9jykMVFoF6ViLQmBeA@mail.ethercloud.io>
+References: <CAORfjXT2oHAu6fC_7yBpb9UQeCKDSs7sZM5_kiWRGRhPn8LQWQ@mail.ethercloud.io>
+ <CAORfjXTPupsjyqXD3feAqWXSovd2rU9rPX=fReLStka33vB27w@mail.ethercloud.io>
+ <CAORfjXTkaiPpttLB00AowftKeX2NygiVuCFRXpdECgG5qy44Ag@mail.ethercloud.io>
+ <CAORfjXQi3FBs42dVZ2+ebQNt+ayuSTf-9jykMVFoF6ViLQmBeA@mail.ethercloud.io>
+From: Lance <l23423423@ethercloud.io>
 Date: Fri, 22 Jun 2018 12:44:44 -0700
 X-Google-Sender-Auth: mqUIWcdzNYkwwxuuU2u-qYjpwDI
-Message-ID: <CAORfjXRYD4aJ59TbsbVKXrSMyfDnB_o8BuOUy_QPUtrSgKwUOA@mail.gmail.com>
+Message-ID: <CAORfjXRYD4aJ59TbsbVKXrSMyfDnB_o8BuOUy_QPUtrSgKwUOA@mail.ethercloud.io>
 To: hosting@osuosl.org
 Subject: Re: [Hosting] ftp-osl storage upgrade (full rebuild required) - Jun
  18, 2018 9:30AM PDT (Jun 18 1630 UTC)
@@ -2668,7 +2668,7 @@ This does not affect anything pointed at ftp.osuosl.org, only ftp-osl
 
 Thanks-
 
-On Tue, Jun 19, 2018 at 8:57 AM, Lance <l23423423@gmail.com> wrote:
+On Tue, Jun 19, 2018 at 8:57 AM, Lance <l23423423@ethercloud.io> wrote:
 
 > It's taking longer than I expected to sync the data back to the local
 > disks. This is due to the fact that the system is also rebuilding two RAID6
@@ -2682,7 +2682,7 @@ On Tue, Jun 19, 2018 at 8:57 AM, Lance <l23423423@gmail.com> wrote:
 >
 > Thanks-
 >
-> On Mon, Jun 18, 2018 at 3:49 PM, Lance <l23423423@gmail.com> wrote:
+> On Mon, Jun 18, 2018 at 3:49 PM, Lance <l23423423@ethercloud.io> wrote:
 >
 >> I just wanted to send you all an update on where we're at in the process.
 >>
@@ -2707,7 +2707,7 @@ On Tue, Jun 19, 2018 at 8:57 AM, Lance <l23423423@gmail.com> wrote:
 >>
 >> Thanks-
 >>
->> On Thu, Jun 14, 2018 at 3:52 PM, Lance <l23423423@gmail.com>
+>> On Thu, Jun 14, 2018 at 3:52 PM, Lance <l23423423@ethercloud.io>
 >> wrote:
 >>
 >>> I had a few questions regarding this outages that I wanted to clarify
@@ -2722,7 +2722,7 @@ On Tue, Jun 19, 2018 at 8:57 AM, Lance <l23423423@gmail.com> wrote:
 >>> short (likely 5 min) outage to read/writes on ftp-osl when I do the final
 >>> switch back to local storage however.
 >>>
->>> On Thu, Jun 14, 2018 at 10:00 AM, Lance <l23423423@gmail.com>
+>>> On Thu, Jun 14, 2018 at 10:00 AM, Lance <l23423423@ethercloud.io>
 >>> wrote:
 >>>
 >>>> Service(s) affected: ftp.osuosl.org
@@ -2819,7 +2819,7 @@ p.osuosl.org">ftp.osuosl.org</a>, only ftp-osl (which is out of rotation).<=
 -serif"><br></div><div class=3D"gmail_default" style=3D"font-family:arial,h=
 elvetica,sans-serif">Thanks-</div></div><div class=3D"gmail_extra"><br><div=
  class=3D"gmail_quote">On Tue, Jun 19, 2018 at 8:57 AM, Lance <sp=
-an dir=3D"ltr">&lt;<a href=3D"mailto:l23423423@gmail.com" target=3D"_blank">la=
+an dir=3D"ltr">&lt;<a href=3D"mailto:l23423423@ethercloud.io" target=3D"_blank">la=
 nce@osuosl.org</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" s=
 tyle=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div=
  dir=3D"ltr"><div class=3D"gmail_default" style=3D"font-family:arial,helvet=
@@ -2838,7 +2838,7 @@ yle=3D"font-family:arial,helvetica,sans-serif"><br></div><div class=3D"gmai=
 l_default" style=3D"font-family:arial,helvetica,sans-serif">Thanks-</div><d=
 iv><div class=3D"h5"><div class=3D"gmail_extra"><br><div class=3D"gmail_quo=
 te">On Mon, Jun 18, 2018 at 3:49 PM, Lance <span dir=3D"ltr">&lt;=
-<a href=3D"mailto:l23423423@gmail.com" target=3D"_blank">l23423423@gmail.com</a>&=
+<a href=3D"mailto:l23423423@ethercloud.io" target=3D"_blank">l23423423@ethercloud.io</a>&=
 gt;</span> wrote:<br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 =
 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div dir=3D"ltr"><div s=
 tyle=3D"font-family:arial,helvetica,sans-serif">I just wanted to send you a=
@@ -2867,8 +2867,8 @@ ocal storage. Please let me know if you notice any issues.</div><div style=
 mily:arial,helvetica,sans-serif">Thanks-</div></div><div class=3D"m_9048662=
 110687646364HOEnZb"><div class=3D"m_9048662110687646364h5"><div class=3D"gm=
 ail_extra"><br><div class=3D"gmail_quote">On Thu, Jun 14, 2018 at 3:52 PM, =
-Lance <span dir=3D"ltr">&lt;<a href=3D"mailto:l23423423@gmail.com" t=
-arget=3D"_blank">l23423423@gmail.com</a>&gt;</span> wrote:<br><blockquote clas=
+Lance <span dir=3D"ltr">&lt;<a href=3D"mailto:l23423423@ethercloud.io" t=
+arget=3D"_blank">l23423423@ethercloud.io</a>&gt;</span> wrote:<br><blockquote clas=
 s=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;pad=
 ding-left:1ex"><div dir=3D"ltr"><div style=3D"font-family:arial,helvetica,s=
 ans-serif">I had a few questions regarding this outages that I wanted to cl=
@@ -2886,8 +2886,8 @@ sl when I do the final switch back to local storage however.</div></div><di=
 v class=3D"m_9048662110687646364m_3870958838149578767HOEnZb"><div class=3D"=
 m_9048662110687646364m_3870958838149578767h5"><div class=3D"gmail_extra"><b=
 r><div class=3D"gmail_quote">On Thu, Jun 14, 2018 at 10:00 AM, Lance Albert=
-son <span dir=3D"ltr">&lt;<a href=3D"mailto:l23423423@gmail.com" target=3D"_bl=
-ank">l23423423@gmail.com</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_q=
+son <span dir=3D"ltr">&lt;<a href=3D"mailto:l23423423@ethercloud.io" target=3D"_bl=
+ank">l23423423@ethercloud.io</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_q=
 uote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1e=
 x"><div dir=3D"ltr"><div><div><font face=3D"arial, helvetica, sans-serif">S=
 ervice(s) affected: <a href=3D"http://ftp.osuosl.org" target=3D"_blank">ftp=
@@ -3078,16 +3078,16 @@ X-Received: by 2002:a6b:5c0c:: with SMTP id
 MIME-Version: 1.0
 Received: by 2002:a6b:2109:0:0:0:0:0 with HTTP; Fri, 22 Jun 2018 13:57:26
  -0700 (PDT)
-In-Reply-To: <CAORfjXRYD4aJ59TbsbVKXrSMyfDnB_o8BuOUy_QPUtrSgKwUOA@mail.gmail.com>
-References: <CAORfjXT2oHAu6fC_7yBpb9UQeCKDSs7sZM5_kiWRGRhPn8LQWQ@mail.gmail.com>
- <CAORfjXTPupsjyqXD3feAqWXSovd2rU9rPX=fReLStka33vB27w@mail.gmail.com>
- <CAORfjXTkaiPpttLB00AowftKeX2NygiVuCFRXpdECgG5qy44Ag@mail.gmail.com>
- <CAORfjXQi3FBs42dVZ2+ebQNt+ayuSTf-9jykMVFoF6ViLQmBeA@mail.gmail.com>
- <CAORfjXRYD4aJ59TbsbVKXrSMyfDnB_o8BuOUy_QPUtrSgKwUOA@mail.gmail.com>
-From: Lance <l23423423@gmail.com>
+In-Reply-To: <CAORfjXRYD4aJ59TbsbVKXrSMyfDnB_o8BuOUy_QPUtrSgKwUOA@mail.ethercloud.io>
+References: <CAORfjXT2oHAu6fC_7yBpb9UQeCKDSs7sZM5_kiWRGRhPn8LQWQ@mail.ethercloud.io>
+ <CAORfjXTPupsjyqXD3feAqWXSovd2rU9rPX=fReLStka33vB27w@mail.ethercloud.io>
+ <CAORfjXTkaiPpttLB00AowftKeX2NygiVuCFRXpdECgG5qy44Ag@mail.ethercloud.io>
+ <CAORfjXQi3FBs42dVZ2+ebQNt+ayuSTf-9jykMVFoF6ViLQmBeA@mail.ethercloud.io>
+ <CAORfjXRYD4aJ59TbsbVKXrSMyfDnB_o8BuOUy_QPUtrSgKwUOA@mail.ethercloud.io>
+From: Lance <l23423423@ethercloud.io>
 Date: Fri, 22 Jun 2018 13:57:26 -0700
 X-Google-Sender-Auth: AqrqORd1Bnt6VyYvPq6Eh4sWWck
-Message-ID: <CAORfjXQEKOZz9NgDN7DwqHimPytnM7vU55i5bnfiRgyS-21zpQ@mail.gmail.com>
+Message-ID: <CAORfjXQEKOZz9NgDN7DwqHimPytnM7vU55i5bnfiRgyS-21zpQ@mail.ethercloud.io>
 To: hosting@osuosl.org
 Subject: Re: [Hosting] ftp-osl storage upgrade (full rebuild required) - Jun
  18, 2018 9:30AM PDT (Jun 18 1630 UTC)
@@ -3109,7 +3109,7 @@ Content-Type: text/plain; charset="UTF-8"
 This has been completed and I've put ftp-osl back into rotation! Thanks for
 your patience.
 
-On Fri, Jun 22, 2018 at 12:44 PM, Lance <l23423423@gmail.com> wrote:
+On Fri, Jun 22, 2018 at 12:44 PM, Lance <l23423423@ethercloud.io> wrote:
 
 > The sync has been completed and I will be switching this over to the local
 > drives at 1:30PM PDT (2030 UTC) today. I'm going to also reboot the machine
@@ -3122,7 +3122,7 @@ On Fri, Jun 22, 2018 at 12:44 PM, Lance <l23423423@gmail.com> wrote:
 >
 > Thanks-
 >
-> On Tue, Jun 19, 2018 at 8:57 AM, Lance <l23423423@gmail.com> wrote:
+> On Tue, Jun 19, 2018 at 8:57 AM, Lance <l23423423@ethercloud.io> wrote:
 >
 >> It's taking longer than I expected to sync the data back to the local
 >> disks. This is due to the fact that the system is also rebuilding two RAID6
@@ -3136,7 +3136,7 @@ On Fri, Jun 22, 2018 at 12:44 PM, Lance <l23423423@gmail.com> wrote:
 >>
 >> Thanks-
 >>
->> On Mon, Jun 18, 2018 at 3:49 PM, Lance <l23423423@gmail.com>
+>> On Mon, Jun 18, 2018 at 3:49 PM, Lance <l23423423@ethercloud.io>
 >> wrote:
 >>
 >>> I just wanted to send you all an update on where we're at in the process.
@@ -3162,7 +3162,7 @@ On Fri, Jun 22, 2018 at 12:44 PM, Lance <l23423423@gmail.com> wrote:
 >>>
 >>> Thanks-
 >>>
->>> On Thu, Jun 14, 2018 at 3:52 PM, Lance <l23423423@gmail.com>
+>>> On Thu, Jun 14, 2018 at 3:52 PM, Lance <l23423423@ethercloud.io>
 >>> wrote:
 >>>
 >>>> I had a few questions regarding this outages that I wanted to clarify
@@ -3177,7 +3177,7 @@ On Fri, Jun 22, 2018 at 12:44 PM, Lance <l23423423@gmail.com> wrote:
 >>>> short (likely 5 min) outage to read/writes on ftp-osl when I do the final
 >>>> switch back to local storage however.
 >>>>
->>>> On Thu, Jun 14, 2018 at 10:00 AM, Lance <l23423423@gmail.com>
+>>>> On Thu, Jun 14, 2018 at 10:00 AM, Lance <l23423423@ethercloud.io>
 >>>> wrote:
 >>>>
 >>>>> Service(s) affected: ftp.osuosl.org
@@ -3273,8 +3273,8 @@ Content-Transfer-Encoding: quoted-printable
 lvetica,sans-serif">This has been completed and I&#39;ve put ftp-osl back i=
 nto rotation! Thanks for your patience.</div></div><div class=3D"gmail_extr=
 a"><br><div class=3D"gmail_quote">On Fri, Jun 22, 2018 at 12:44 PM, Lance A=
-lbertson <span dir=3D"ltr">&lt;<a href=3D"mailto:l23423423@gmail.com" target=
-=3D"_blank">l23423423@gmail.com</a>&gt;</span> wrote:<br><blockquote class=3D"=
+lbertson <span dir=3D"ltr">&lt;<a href=3D"mailto:l23423423@ethercloud.io" target=
+=3D"_blank">l23423423@ethercloud.io</a>&gt;</span> wrote:<br><blockquote class=3D"=
 gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-=
 left:1ex"><div dir=3D"ltr"><div class=3D"gmail_default" style=3D"font-famil=
 y:arial,helvetica,sans-serif">The sync has been completed and I will be swi=
@@ -3291,7 +3291,7 @@ l,helvetica,sans-serif">This does not affect anything pointed at <a href=3D=
 style=3D"font-family:arial,helvetica,sans-serif">Thanks-</div></div><div cl=
 ass=3D"HOEnZb"><div class=3D"h5"><div class=3D"gmail_extra"><br><div class=
 =3D"gmail_quote">On Tue, Jun 19, 2018 at 8:57 AM, Lance <span dir=
-=3D"ltr">&lt;<a href=3D"mailto:l23423423@gmail.com" target=3D"_blank">lance@os=
+=3D"ltr">&lt;<a href=3D"mailto:l23423423@ethercloud.io" target=3D"_blank">lance@os=
 uosl.org</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" style=
 =3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div dir=
 =3D"ltr"><div class=3D"gmail_default" style=3D"font-family:arial,helvetica,=
@@ -3310,7 +3310,7 @@ ready switch the system back over.</div><div class=3D"gmail_default" style=
 efault" style=3D"font-family:arial,helvetica,sans-serif">Thanks-</div><div>=
 <div class=3D"m_4163334197822253220h5"><div class=3D"gmail_extra"><br><div =
 class=3D"gmail_quote">On Mon, Jun 18, 2018 at 3:49 PM, Lance <spa=
-n dir=3D"ltr">&lt;<a href=3D"mailto:l23423423@gmail.com" target=3D"_blank">lan=
+n dir=3D"ltr">&lt;<a href=3D"mailto:l23423423@ethercloud.io" target=3D"_blank">lan=
 ce@osuosl.org</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" st=
 yle=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div =
 dir=3D"ltr"><div style=3D"font-family:arial,helvetica,sans-serif">I just wa=
@@ -3340,8 +3340,8 @@ iv style=3D"font-family:arial,helvetica,sans-serif">Thanks-</div></div><div=
  class=3D"m_4163334197822253220m_9048662110687646364HOEnZb"><div class=3D"m=
 _4163334197822253220m_9048662110687646364h5"><div class=3D"gmail_extra"><br=
 ><div class=3D"gmail_quote">On Thu, Jun 14, 2018 at 3:52 PM, Lance Albertso=
-n <span dir=3D"ltr">&lt;<a href=3D"mailto:l23423423@gmail.com" target=3D"_blan=
-k">l23423423@gmail.com</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quo=
+n <span dir=3D"ltr">&lt;<a href=3D"mailto:l23423423@ethercloud.io" target=3D"_blan=
+k">l23423423@ethercloud.io</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quo=
 te" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"=
 ><div dir=3D"ltr"><div style=3D"font-family:arial,helvetica,sans-serif">I h=
 ad a few questions regarding this outages that I wanted to clarify for ever=
@@ -3360,7 +3360,7 @@ m_4163334197822253220m_9048662110687646364m_3870958838149578767HOEnZb"><div=
  class=3D"m_4163334197822253220m_9048662110687646364m_3870958838149578767h5=
 "><div class=3D"gmail_extra"><br><div class=3D"gmail_quote">On Thu, Jun 14,=
  2018 at 10:00 AM, Lance <span dir=3D"ltr">&lt;<a href=3D"mailto:=
-l23423423@gmail.com" target=3D"_blank">l23423423@gmail.com</a>&gt;</span> wrote:<=
+l23423423@ethercloud.io" target=3D"_blank">l23423423@ethercloud.io</a>&gt;</span> wrote:<=
 br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left=
 :1px #ccc solid;padding-left:1ex"><div dir=3D"ltr"><div><div><font face=3D"=
 arial, helvetica, sans-serif">Service(s) affected: <a href=3D"http://ftp.os=
@@ -3515,8 +3515,8 @@ Received: from smtp.justsomehost.net (smtp.justsomehost.net [204.11.51.157])
 	by smtp.justsomehost.net (Postfix) with ESMTP id A786C562BC5
 	for <builds@apache.org>; Fri, 22 Jun 2018 17:31:36 -0400 (EDT)
 Date: Fri, 22 Jun 2018 17:31:36 -0400 (EDT)
-From: Joan <j234534534@gmail.com>
-Reply-To: Joan <j234534534@gmail.com>
+From: Joan <j234534534@ethercloud.io>
+Reply-To: Joan <j234534534@ethercloud.io>
 To: builds@apache.org
 Message-ID: <1109060217.2747.1529703096364.JavaMail.Joan@RITA>
 In-Reply-To: <1691299438.2746.1529703095479.JavaMail.Joan@RITA>
@@ -3552,7 +3552,7 @@ checkout from the specific tag.
 
 -Joan
 ----- Original Message -----
-From: "Francesco=C3=83=C2=B2" <f2345345435@gmail.com>
+From: "Francesco=C3=83=C2=B2" <f2345345435@ethercloud.io>
 To: builds@apache.org
 Sent: Friday, June 22, 2018 11:44:44 AM
 Subject: [DISCUSS] Deploy releases to DockerHub
@@ -3614,7 +3614,7 @@ X-Spam-Status: No, score=1.869 tagged_above=-999 required=6.31
 	RCVD_IN_MSPIKE_WL=-0.01, SPF_PASS=-0.001, T_DKIMWL_WL_MED=-0.01]
 	autolearn=disabled
 Authentication-Results: spamd1-us-west.apache.org (amavisd-new);
-	dkim=pass (2048-bit key) header.d=gmail.com
+	dkim=pass (2048-bit key) header.d=ethercloud.io
 Received: from mx1-lw-eu.apache.org ([10.40.0.8])
 	by localhost (spamd1-us-west.apache.org [10.40.0.7]) (amavisd-new, port 10024)
 	with ESMTP id cJLt1gWGTfOY; Fri, 22 Jun 2018 22:22:00 +0000 (UTC)
@@ -3624,7 +3624,7 @@ Received: from mail-ot0-f195.google.com (mail-ot0-f195.google.com [74.125.82.195
 Received: by mail-ot0-f195.google.com with SMTP id l15-v6so9133169oth.6;
         Fri, 22 Jun 2018 15:21:59 -0700 (PDT)
 DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
-        d=gmail.com; s=20161025;
+        d=ethercloud.io; s=20161025;
         h=mime-version:in-reply-to:references:from:date:message-id:subject:to;
         bh=mzuAYNWzGQLJDYPuVby3jkU42yJjZM79AD5V/si7+7U=;
         b=CiqYNRall9B4/7twMq8yAVVrEW+Gn6+PE8yyiiuxA3EJgBrEMpcTOcFLMlDzlDbmO1
@@ -3654,18 +3654,18 @@ Received: by 2002:a4a:2e06:0:0:0:0:0 with HTTP; Fri, 22 Jun 2018 15:21:37
  -0700 (PDT)
 In-Reply-To: <1109060217.2747.1529703096364.JavaMail.Joan@RITA>
 References: <1691299438.2746.1529703095479.JavaMail.Joan@RITA> <1109060217.2747.1529703096364.JavaMail.Joan@RITA>
-From: Gav <g23423423@gmail.com>
+From: Gav <g23423423@ethercloud.io>
 Date: Fri, 22 Jun 2018 23:21:37 +0100
-Message-ID: <CAN0Gg1dQzXcPeyA6smgzpNOSJXKr9Pb=4Ygu3tgx4v=v+GcawQ@mail.gmail.com>
+Message-ID: <CAN0Gg1dQzXcPeyA6smgzpNOSJXKr9Pb=4Ygu3tgx4v=v+GcawQ@mail.ethercloud.io>
 Subject: Re: [DISCUSS] Deploy releases to DockerHub
-To: builds <builds@apache.org>, Joan <j234534534@gmail.com>
+To: builds <builds@apache.org>, Joan <j234534534@ethercloud.io>
 Content-Type: multipart/alternative; boundary="000000000000c003aa056f4275bf"
 
 --000000000000c003aa056f4275bf
 Content-Type: text/plain; charset="UTF-8"
 Content-Transfer-Encoding: quoted-printable
 
-On Fri, Jun 22, 2018 at 10:31 PM, Joan <j234534534@gmail.com> wrote:
+On Fri, Jun 22, 2018 at 10:31 PM, Joan <j234534534@ethercloud.io> wrote:
 
 > Interesting. Previously, I was told we were not allowed to push snapshot
 > builds
@@ -3732,7 +3732,7 @@ r
 >
 > -Joan
 > ----- Original Message -----
-> From: "Francesco=C3=83=C2=B2" <f2345345435@gmail.com>
+> From: "Francesco=C3=83=C2=B2" <f2345345435@ethercloud.io>
 > To: builds@apache.org
 > Sent: Friday, June 22, 2018 11:44:44 AM
 > Subject: [DISCUSS] Deploy releases to DockerHub
@@ -3869,10 +3869,10 @@ X-Received: by 2002:a6b:d40c:: with SMTP id
 MIME-Version: 1.0
 Received: by 2002:a6b:cf05:0:0:0:0:0 with HTTP; Tue, 26 Jun 2018 22:17:07
  -0700 (PDT)
-From: Lance <l23423423@gmail.com>
+From: Lance <l23423423@ethercloud.io>
 Date: Tue, 26 Jun 2018 22:17:07 -0700
 X-Google-Sender-Auth: zuPx47axMLirv__SAI_LK94xUOQ
-Message-ID: <CAORfjXS0j1NBuRr3+kB4-Mz6Dq0n1TpHKFMsshWNYpH_o+Fi1A@mail.gmail.com>
+Message-ID: <CAORfjXS0j1NBuRr3+kB4-Mz6Dq0n1TpHKFMsshWNYpH_o+Fi1A@mail.ethercloud.io>
 To: openpower@osuosl.org
 Subject: [osuosl-openpower] Unplanned outage (openpower1)
 X-BeenThere: openpower@osuosl.org
@@ -3976,13 +3976,13 @@ X-Google-Smtp-Source: AAOMgpdzlKzuYO+eFjjhljgX8D2QHYYpteAMkH8G2PvzA4V71TopJUrEIE
 X-Received: by 2002:aca:e6cd:: with SMTP id d196-v6mr6196360oih.94.1530213959519;
  Thu, 28 Jun 2018 12:25:59 -0700 (PDT)
 MIME-Version: 1.0
-Reply-To: gmcdonald@apache.org
+Reply-To: g498329483209@ethercloud.io
 Received: by 2002:a4a:1f41:0:0:0:0:0 with HTTP; Thu, 28 Jun 2018 12:25:39
  -0700 (PDT)
-From: Gav <gmcdonald@apache.org>
+From: Gav <g498329483209@ethercloud.io>
 Date: Thu, 28 Jun 2018 20:25:39 +0100
-X-Gmail-Original-Message-ID: <CAN0Gg1drNQw83KNnewzttXJ9Q=C62j2rfgDdnZZLz_Gnjgp67Q@mail.gmail.com>
-Message-ID: <CAN0Gg1drNQw83KNnewzttXJ9Q=C62j2rfgDdnZZLz_Gnjgp67Q@mail.gmail.com>
+X-Gmail-Original-Message-ID: <CAN0Gg1drNQw83KNnewzttXJ9Q=C62j2rfgDdnZZLz_Gnjgp67Q@mail.ethercloud.io>
+Message-ID: <CAN0Gg1drNQw83KNnewzttXJ9Q=C62j2rfgDdnZZLz_Gnjgp67Q@mail.ethercloud.io>
 Subject: Jenkins Upgrade
 To: builds <builds@apache.org>, operations@apache.org
 Content-Type: multipart/alternative; boundary="0000000000007cd3ee056fb8b392"
@@ -4071,9 +4071,9 @@ X-Received: by 2002:a9d:b65:: with SMTP id p34-v6mr351482otd.16.1530258452493;
 MIME-Version: 1.0
 Received: by 2002:a4a:7609:0:0:0:0:0 with HTTP; Fri, 29 Jun 2018 00:47:11
  -0700 (PDT)
-From: Zoran <z4534534@gmail.com>
+From: Zoran <z4534534@ethercloud.io>
 Date: Fri, 29 Jun 2018 09:47:11 +0200
-Message-ID: <CABD_Zr9hQi9PnpK=FpRHovw4xV2vxLnKv8A0VkATezVkoj48JA@mail.gmail.com>
+Message-ID: <CABD_Zr9hQi9PnpK=FpRHovw4xV2vxLnKv8A0VkATezVkoj48JA@mail.ethercloud.io>
 Subject: JDK 11 tool on Jenkins
 To: builds@apache.org
 Cc: dev@camel.apache.org
@@ -4131,15 +4131,15 @@ X-Google-Smtp-Source: AAOMgpe/w+EG06tu43YftloGBQOs7ZMuiILxkfCbS9j0E+8e1WGkZwseL8
 X-Received: by 2002:a9d:2ba8:: with SMTP id u37-v6mr5748680ota.280.1530266715804;
  Fri, 29 Jun 2018 03:05:15 -0700 (PDT)
 MIME-Version: 1.0
-Reply-To: gmcdonald@apache.org
+Reply-To: g498329483209@ethercloud.io
 Received: by 2002:a4a:1f41:0:0:0:0:0 with HTTP; Fri, 29 Jun 2018 03:04:55
  -0700 (PDT)
-In-Reply-To: <CABD_Zr9hQi9PnpK=FpRHovw4xV2vxLnKv8A0VkATezVkoj48JA@mail.gmail.com>
-References: <CABD_Zr9hQi9PnpK=FpRHovw4xV2vxLnKv8A0VkATezVkoj48JA@mail.gmail.com>
-From: Gav <gmcdonald@apache.org>
+In-Reply-To: <CABD_Zr9hQi9PnpK=FpRHovw4xV2vxLnKv8A0VkATezVkoj48JA@mail.ethercloud.io>
+References: <CABD_Zr9hQi9PnpK=FpRHovw4xV2vxLnKv8A0VkATezVkoj48JA@mail.ethercloud.io>
+From: Gav <g498329483209@ethercloud.io>
 Date: Fri, 29 Jun 2018 11:04:55 +0100
-X-Gmail-Original-Message-ID: <CAN0Gg1dY7iNU6QcBd8rLmbEDyu5013GVcuK=1E+F2hHQyP8dNA@mail.gmail.com>
-Message-ID: <CAN0Gg1dY7iNU6QcBd8rLmbEDyu5013GVcuK=1E+F2hHQyP8dNA@mail.gmail.com>
+X-Gmail-Original-Message-ID: <CAN0Gg1dY7iNU6QcBd8rLmbEDyu5013GVcuK=1E+F2hHQyP8dNA@mail.ethercloud.io>
+Message-ID: <CAN0Gg1dY7iNU6QcBd8rLmbEDyu5013GVcuK=1E+F2hHQyP8dNA@mail.ethercloud.io>
 Subject: Re: JDK 11 tool on Jenkins
 To: builds <builds@apache.org>
 Cc: dev@camel.apache.org
@@ -4150,7 +4150,7 @@ Content-Type: text/plain; charset="UTF-8"
 
 HI,
 
-On Fri, Jun 29, 2018 at 8:47 AM, Zoran <z4534534@gmail.com> wrote:
+On Fri, Jun 29, 2018 at 8:47 AM, Zoran <z4534534@ethercloud.io> wrote:
 
 > Hi,
 > is there a chance we can get the JDK 11 early access builds tools
@@ -4280,14 +4280,14 @@ X-Received: by 2002:a9d:3446:: with SMTP id v64-v6mr7824882otb.122.1530276195199
 MIME-Version: 1.0
 Received: by 2002:a4a:7609:0:0:0:0:0 with HTTP; Fri, 29 Jun 2018 05:42:54
  -0700 (PDT)
-In-Reply-To: <CAN0Gg1dY7iNU6QcBd8rLmbEDyu5013GVcuK=1E+F2hHQyP8dNA@mail.gmail.com>
-References: <CABD_Zr9hQi9PnpK=FpRHovw4xV2vxLnKv8A0VkATezVkoj48JA@mail.gmail.com>
- <CAN0Gg1dY7iNU6QcBd8rLmbEDyu5013GVcuK=1E+F2hHQyP8dNA@mail.gmail.com>
-From: Zoran <z4534534@gmail.com>
+In-Reply-To: <CAN0Gg1dY7iNU6QcBd8rLmbEDyu5013GVcuK=1E+F2hHQyP8dNA@mail.ethercloud.io>
+References: <CABD_Zr9hQi9PnpK=FpRHovw4xV2vxLnKv8A0VkATezVkoj48JA@mail.ethercloud.io>
+ <CAN0Gg1dY7iNU6QcBd8rLmbEDyu5013GVcuK=1E+F2hHQyP8dNA@mail.ethercloud.io>
+From: Zoran <z4534534@ethercloud.io>
 Date: Fri, 29 Jun 2018 14:42:54 +0200
-Message-ID: <CABD_Zr9Zipqpf=vp16DLGu-xvy6btTUPxJFoB2jYeOO7DENuJQ@mail.gmail.com>
+Message-ID: <CABD_Zr9Zipqpf=vp16DLGu-xvy6btTUPxJFoB2jYeOO7DENuJQ@mail.ethercloud.io>
 Subject: Re: JDK 11 tool on Jenkins
-To: gmcdonald@apache.org, builds@apache.org
+To: g498329483209@ethercloud.io, builds@apache.org
 Cc: dev@camel.apache.org
 Content-Type: text/plain; charset="UTF-8"
 
@@ -4295,10 +4295,10 @@ Awesome, thanks  Gavin!
 
 zoran
 
-On Fri, Jun 29, 2018 at 12:04 PM, Gav <gmcdonald@apache.org> wrote:
+On Fri, Jun 29, 2018 at 12:04 PM, Gav <g498329483209@ethercloud.io> wrote:
 > HI,
 >
-> On Fri, Jun 29, 2018 at 8:47 AM, Zoran <z4534534@gmail.com> wrote:
+> On Fri, Jun 29, 2018 at 8:47 AM, Zoran <z4534534@ethercloud.io> wrote:
 >
 >> Hi,
 >> is there a chance we can get the JDK 11 early access builds tools
@@ -4394,18 +4394,18 @@ X-Google-Smtp-Source: AAOMgpdlfR9+e+Y3EKG0fpHCIjal1U5Q38CA65wk52Z5G1OJTdgTKWRmzy
 X-Received: by 2002:aca:e6cd:: with SMTP id d196-v6mr8759256oih.94.1530306325082;
  Fri, 29 Jun 2018 14:05:25 -0700 (PDT)
 MIME-Version: 1.0
-Reply-To: gmcdonald@apache.org
+Reply-To: g498329483209@ethercloud.io
 Received: by 2002:a4a:1f41:0:0:0:0:0 with HTTP; Fri, 29 Jun 2018 14:05:04
  -0700 (PDT)
-In-Reply-To: <CABD_Zr9Zipqpf=vp16DLGu-xvy6btTUPxJFoB2jYeOO7DENuJQ@mail.gmail.com>
-References: <CABD_Zr9hQi9PnpK=FpRHovw4xV2vxLnKv8A0VkATezVkoj48JA@mail.gmail.com>
- <CAN0Gg1dY7iNU6QcBd8rLmbEDyu5013GVcuK=1E+F2hHQyP8dNA@mail.gmail.com> <CABD_Zr9Zipqpf=vp16DLGu-xvy6btTUPxJFoB2jYeOO7DENuJQ@mail.gmail.com>
-From: Gav <gmcdonald@apache.org>
+In-Reply-To: <CABD_Zr9Zipqpf=vp16DLGu-xvy6btTUPxJFoB2jYeOO7DENuJQ@mail.ethercloud.io>
+References: <CABD_Zr9hQi9PnpK=FpRHovw4xV2vxLnKv8A0VkATezVkoj48JA@mail.ethercloud.io>
+ <CAN0Gg1dY7iNU6QcBd8rLmbEDyu5013GVcuK=1E+F2hHQyP8dNA@mail.ethercloud.io> <CABD_Zr9Zipqpf=vp16DLGu-xvy6btTUPxJFoB2jYeOO7DENuJQ@mail.ethercloud.io>
+From: Gav <g498329483209@ethercloud.io>
 Date: Fri, 29 Jun 2018 22:05:04 +0100
-X-Gmail-Original-Message-ID: <CAN0Gg1f_q6sDJpA6XJ5SDF359i6uQYJfeo+mibEnN5eST=X6ww@mail.gmail.com>
-Message-ID: <CAN0Gg1f_q6sDJpA6XJ5SDF359i6uQYJfeo+mibEnN5eST=X6ww@mail.gmail.com>
+X-Gmail-Original-Message-ID: <CAN0Gg1f_q6sDJpA6XJ5SDF359i6uQYJfeo+mibEnN5eST=X6ww@mail.ethercloud.io>
+Message-ID: <CAN0Gg1f_q6sDJpA6XJ5SDF359i6uQYJfeo+mibEnN5eST=X6ww@mail.ethercloud.io>
 Subject: Re: JDK 11 tool on Jenkins
-To: Zoran <z4534534@gmail.com>
+To: Zoran <z4534534@ethercloud.io>
 Cc: builds <builds@apache.org>, dev@camel.apache.org
 Content-Type: multipart/alternative; boundary="000000000000e77c39056fce34d8"
 
@@ -4420,16 +4420,16 @@ Java(TM) SE Runtime Environment 18.9 (build 11-ea+19)
 Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11-ea+19, mixed mode)
 
 
-On Fri, Jun 29, 2018 at 1:42 PM, Zoran <z4534534@gmail.com> wrote:
+On Fri, Jun 29, 2018 at 1:42 PM, Zoran <z4534534@ethercloud.io> wrote:
 
 > Awesome, thanks  Gavin!
 >
 > zoran
 >
-> On Fri, Jun 29, 2018 at 12:04 PM, Gav <gmcdonald@apache.org> wrote:
+> On Fri, Jun 29, 2018 at 12:04 PM, Gav <g498329483209@ethercloud.io> wrote:
 > > HI,
 > >
-> > On Fri, Jun 29, 2018 at 8:47 AM, Zoran <z4534534@gmail.com>
+> > On Fri, Jun 29, 2018 at 8:47 AM, Zoran <z4534534@ethercloud.io>
 > wrote:
 > >
 > >> Hi,
@@ -4599,10 +4599,10 @@ X-Received: by 2002:a6b:5c0c:: with SMTP id
 MIME-Version: 1.0
 Received: by 2002:a6b:cf05:0:0:0:0:0 with HTTP; Sat, 30 Jun 2018 09:21:56
  -0700 (PDT)
-From: Lance <l23423423@gmail.com>
+From: Lance <l23423423@ethercloud.io>
 Date: Sat, 30 Jun 2018 09:21:56 -0700
 X-Google-Sender-Auth: iAqg6ruzpstQkZtihm3c3jj_Xdk
-Message-ID: <CAORfjXSFAYp21OCaiZ=4Ayv-bMBe43xZHG_-HJszFppNUT_Zmw@mail.gmail.com>
+Message-ID: <CAORfjXSFAYp21OCaiZ=4Ayv-bMBe43xZHG_-HJszFppNUT_Zmw@mail.ethercloud.io>
 To: hosting@osuosl.org
 Subject: [Hosting] Partial datacenter outage this morning
 X-BeenThere: hosting@osuosl.org
